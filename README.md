@@ -28,6 +28,13 @@ The project focuses on automation using simple PIR motion sensors to control lam
    pip3 install -r requirements.txt
    ```
 
+3. Make sure the utilities required are installed on your system:
+   ```
+   sudo apt-get install mosquitto mosquitto-clients
+   sudo apt-get install tcpdump
+   ```
+   
+
 ### Configuration
 
 1. Update the `lamp_logic_config.ini` with your MQTT broker details, sensors, and lamp IPs.
